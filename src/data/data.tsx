@@ -121,10 +121,10 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: '数据库',
     skills: [
       {
-        name: 'English',
+        name: 'mysql',
         level: 10,
       },
       {
