@@ -2,7 +2,7 @@ import {BoltIcon, ChevronUpIcon} from '@heroicons/react/24/solid';
 import {FC, memo} from 'react';
 
 import {SectionId} from '../../data/data';
-import Socials from '../Socials';
+// import Socials from '../Socials';
 
 const currentYear = new Date().getFullYear();
 
