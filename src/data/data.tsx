@@ -6,7 +6,9 @@ import {
   FlagIcon,
   MapIcon,
   SparklesIcon,
-  UserIcon
+  UserIcon,
+  UserCircleIcon,
+  EnvelopeIcon
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
@@ -112,6 +114,8 @@ export const aboutData: About = {
     {label: 'Interests', text: '足球、篮球、音乐、游戏、技术', Icon: SparklesIcon},
     {label: 'Study', text: '上海大学（非全，学历不够，努力来凑🤦‍♂️）', Icon: AcademicCapIcon},
     {label: 'Employment', text: '江苏帮帮虎网络有限公司', Icon: BuildingOffice2Icon},
+    {label: 'telephone/wx', text: '15261123964', Icon: UserCircleIcon},
+    {label: 'email', text: '15261123964@163.com', Icon: EnvelopeIcon},
     {label: 'Sixteen personality types', text: 'INFJ-A', Icon: UserIcon},
   ],
 };
