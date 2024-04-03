@@ -125,66 +125,147 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'mysql',
-        level: 10,
+        level: 9,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'redis',
+        level: 9,
       },
       {
-        name: 'Spanish',
-        level: 3,
+        name: 'mongodb',
+        level: 7,
+      },
+      {
+        name: 'oracle',
+        level: 7,
+      },
+      {
+        name: 'sql server',
+        level: 7,
+      },
+      {
+        name: 'PostgreSQL',
+        level: 7,
+      },
+      {
+        name: 'Elasticsearch',
+        level: 7,
       },
     ],
   },
   {
-    name: 'Frontend development',
+    name: '前端',
     skills: [
       {
         name: 'React',
-        level: 9,
+        level: 5,
       },
       {
         name: 'Typescript',
+        level: 5,
+      },
+      {
+        name: 'vue',
         level: 7,
       },
       {
-        name: 'GraphQL',
+        name: 'ElementUI',
+        level: 7,
+      },
+      {
+        name: 'nextjs',
+        level: 5,
+      },
+    ],
+  },
+  {
+    name: '后端主java系',
+    skills: [
+      {
+        name: 'java',
+        level: 9,
+      },
+      {
+        name: 'Spring',
+        level: 8,
+      },
+      {
+        name: 'SpringMVC',
+        level: 8,
+      },
+      {
+        name: 'SpringBoot',
+        level: 8,
+      },
+      {
+        name: 'SpringCloud',
+        level: 8,
+      },
+      {
+        name: 'SpringCloud alibaba',
+        level: 8,
+      },
+      {
+        name: 'python',
+        level: 5,
+      },
+    ],
+  },
+  {
+    name: 'CI/CD',
+    skills: [
+      {
+        name: 'linux',
+        level: 7,
+      },
+      {
+        name: 'docker',
+        level: 7,
+      },
+      {
+        name: 'jenkins',
+        level: 7,
+      },
+      {
+        name: 'k8s',
+        level: 6,
+      },
+      {
+        name: 'skywalking',
+        level: 7,
+      },
+      {
+        name: 'efk',
+        level: 8,
+      },
+      {
+        name: 'Prometheus',
+        level: 7,
+      },
+      {
+        name: 'rancher',
         level: 6,
       },
     ],
   },
   {
-    name: 'Backend development',
+    name: '中间件',
     skills: [
       {
-        name: 'Node.js',
-        level: 8,
+        name: 'rabbitMQ',
+        level: 6,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'kaffka',
+        level: 6,
       },
       {
-        name: 'Golang',
-        level: 4,
-      },
-    ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 9,
+        name: 'mqtt',
+        level: 6,
       },
       {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
+        name: 'nginx',
+        level: 7,
       },
     ],
   },
