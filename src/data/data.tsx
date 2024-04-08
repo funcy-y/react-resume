@@ -30,6 +30,7 @@ import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
+
 import {
   About,
   ContactSection,
@@ -88,7 +89,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: 'resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
